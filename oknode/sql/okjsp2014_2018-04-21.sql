@@ -10,6 +10,9 @@
 # Generation Time: 2018-04-20 16:04:43 +0000
 # ************************************************************
 
+grant all privileges on oknode.* to okuser@localhost identified by 'okpass';
+create database oknode;
+use oknode;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
