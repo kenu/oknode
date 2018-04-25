@@ -7,3 +7,8 @@ it('async dao', async () => {
     assert.equal(2, data[0].result);
 });
 
+it('datetime', () => {
+    console.log(common);
+    var str = "2018-04-25 23:40:02";
+    assert.equal(str.substr(0,10), common.getDate(str));
+});

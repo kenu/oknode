@@ -15,4 +15,4 @@ const common = {
 	}
 }
 
-module.exxports = common;
+module.exports = common;
