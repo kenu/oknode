@@ -1,0 +1,12 @@
+{
+	"apps": [
+		{
+			"name": "oknode",
+			"script": "./bin/oknode",
+			"NODE_ENV": "production",
+			"exec_mode": "cluster",
+			"instances": "max",
+			"watch": false
+		}
+	]
+}
