@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/oknode"
+    "start": "cross-env NODE_ENV=development node ./bin/oknode"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
+    "cross-env": "^5.1.6",
     "debug": "~2.6.9",
     "ejs": "^2.5.8",
     "express": "~4.16.0",
