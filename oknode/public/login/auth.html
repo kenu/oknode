@@ -99,13 +99,13 @@
                 <h5 class="panel-header">아이디 로그인</h5>
             </div>
 
-            <form action='/j_spring_security_check' class="form-signin form-user panel-body panel-margin" method='POST' id='loginForm' autocomplete='off'>
+            <form class="form-signin form-user panel-body panel-margin" method='POST' id='loginForm' autocomplete='off'>
                 
                 
                     <input type="hidden" name="redirectUrl" value="/" />
                 
-                <input type="text" name="j_username" autocorrect="off" autocapitalize="off" id="username" class="username form-control input-sm" placeholder="아이디" required autofocus>
-                <input type="password" name='j_password' class="password form-control input-sm" placeholder="비밀번호" required>
+                <input type="text" name="id" autocorrect="off" autocapitalize="off" id="username" class="username form-control input-sm" placeholder="아이디" required autofocus>
+                <input type="password" name='passwd' class="password form-control input-sm" placeholder="비밀번호" required>
                 <!-- AutoPassword 추가 -->
                 <div class="AutoPassword-bar" id="otp_login" style="display: none;">
                     <div class="pwBar">
