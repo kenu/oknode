@@ -1,4 +1,4 @@
-
+<base href="https://okky.kr/login/auth?redirectUrl=%2F">
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="ko" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="ko" class="no-js ie7"> <![endif]-->
@@ -17,7 +17,7 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <meta property="og:image" content="//okky.kr/assets/okky_logo_fb-cea175ff727ef14a4d8be0e68cff730a.png">
         
-        <link rel="stylesheet" href="//okky.kr/assets/application-5492ad364c49ff93fb98d5c96b70d215.css"/>
+        <link rel="stylesheet" href="//okky.kr/assets/application-786c768e787a9741d1ce50a030efb766.css"/>
 
         <!--[if lt IE 9]>
             <script src="//okky.kr/assets/libs/html5-ca664f64318d191265abf57fdf467aec.js" type="text/javascript" ></script>
@@ -27,7 +27,8 @@
     <meta name="layout" content="main">
     
 
-    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="stylesheet" href="//okky.kr/assets/style.css"/>
+    <link rel="stylesheet" href="//okky.kr/assets/APW-style-4cc590ebaca176a1481738f6db45886f.css"/>
 
 	</head>
 	<body>
@@ -99,13 +100,13 @@
                 <h5 class="panel-header">아이디 로그인</h5>
             </div>
 
-            <form class="form-signin form-user panel-body panel-margin" method='POST' id='loginForm' autocomplete='off'>
+            <form action='/j_spring_security_check' class="form-signin form-user panel-body panel-margin" method='POST' id='loginForm' autocomplete='off'>
                 
                 
                     <input type="hidden" name="redirectUrl" value="/" />
                 
-                <input type="text" name="id" autocorrect="off" autocapitalize="off" id="username" class="username form-control input-sm" placeholder="아이디" required autofocus>
-                <input type="password" name='passwd' class="password form-control input-sm" placeholder="비밀번호" required>
+                <input type="text" name="j_username" autocorrect="off" autocapitalize="off" id="username" class="username form-control input-sm" placeholder="아이디" required autofocus>
+                <input type="password" name='j_password' class="password form-control input-sm" placeholder="비밀번호" required>
                 <!-- AutoPassword 추가 -->
                 <div class="AutoPassword-bar" id="otp_login" style="display: none;">
                     <div class="pwBar">
@@ -214,7 +215,7 @@
             | <a href="/intro/ad">광고문의</a>
             | <a href="mailto:info@okky.kr">Contact</a>
             | <a href="https://www.facebook.com/okky.sns" target="_blank">Facebook</a>
-            | <a href="https://github.com/okjsp/okky" target="_blank">Github</a>  v0.11.2
+            | <a href="https://github.com/okjsp/okky" target="_blank">Github</a>  v0.12
             <br/> @ 2018 <a href="http://www.ebrain.kr" target="_blank">eBrain Management</a>
         </div>
     </div>
@@ -233,13 +234,13 @@
         <script>
             var contextPath = "", encodedURL = "%2Flogin%2Fauth%3FredirectUrl%3D%252F";
         </script>
-        <script src="//okky.kr/assets/application-7969b32e46b170822c860d80eab6f76e.js" type="text/javascript" ></script>
+        <script src="//okky.kr/assets/application-1c1b2daa70df203b0f741a75fac105a5.js" type="text/javascript" ></script>
         <script src="//okky.kr/assets/apps/search-a672360634f56105585df31fcdb69705.js" type="text/javascript" ></script>
         
         
-    <script src="//okky.kr/assets/libs/jquery.progressTimer-477e6352864f982db103339c6d79f8e4.js" type="text/javascript" ></script>
-    <script src="//okky.kr/assets/libs/dualauth.error-3.0-ae28e8e55ff8b72badaaeb7152e5f149.js" type="text/javascript" ></script>
-    <script src="//okky.kr/assets/libs/dualauth-3.0-f0070b3b834ae3c0180ed5606a997219.js" type="text/javascript" ></script>
+    <script src="//okky.kr/assets/libs/jquery.progressTimer-ca8cafd705431e00d22d0c4a8eadbe5f.js" type="text/javascript" ></script>
+    <script src="//okky.kr/assets/libs/dualauth.error-3.0-8a3b1bb905351bf3923559b811af065e.js" type="text/javascript" ></script>
+    <script src="//okky.kr/assets/libs/dualauth-3.0-b00e0325660c4c6de2c5505c8d6c7590.js" type="text/javascript" ></script>
 
     <script type='text/javascript'>
       <!--
